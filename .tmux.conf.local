@@ -265,3 +265,6 @@ tmux_conf_copy_to_os_clipboard=false
 
 # move status line to top
 #set -g status-position top
+
+source "/usr/local/lib/python2.7/dist-packages/powerline/bindings/tmux/powerline.conf"
+bind -r | split-window -h
