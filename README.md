@@ -15,11 +15,8 @@
   - 环境变量 `$TERM` 必须设置为 `xterm-256color`
 
 运行下面命令安装,如果已有配置文件请自行备份.
-```
-$ cd
-$ git clone https://github.com/gpakosz/.tmux.git
-$ ln -s -f .tmux/.tmux.conf
-$ cp .tmux/.tmux.conf.local .
+```bash
+curl https://raw.githubusercontent.com/zhumengu/.tmux/master/install.sh | sh
 ```
 
 [自定义]设置 `~/.tmux.conf.local` 文件 , 主配置文件切勿更改。
